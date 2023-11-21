@@ -1,0 +1,157 @@
+.jumbotron {
+    background-color: rgb(222, 248, 248);
+    padding-top: 5rem;
+  }
+
+  .project {
+    background-color: rgb(222, 248, 248);
+  }
+
+  #galery img {
+    width: 300px;
+    height: 300px;
+    width: 100%;
+  }
+  
+  #galery .row > * {
+    padding: 0;
+  }
+  
+  section {
+    padding-top: 4rem;
+  }
+  
+  footer {
+    background-color: rgb(79, 191, 229);
+  }
+
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+ /* Gunakan font-awesome untuk ikon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+/* Styling untuk sub-header */
+.sub-header {
+  background-color: #333; /* Ganti dengan warna latar belakang yang diinginkan */
+  color: #fff; /* Ganti dengan warna teks yang diinginkan */
+  padding: 10px 0; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+.sub-header .info,
+.sub-header .social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-header .info li,
+.sub-header .social-links li {
+  display: inline-block;
+  margin-right: 15px; /* Sesuaikan margin sesuai kebutuhan */
+}
+
+.sub-header .social-links a {
+  color: #fff; /* Ganti dengan warna ikon yang diinginkan */
+  text-decoration: none;
+}
+
+/* Hover effect untuk ikon media sosial */
+.sub-header .social-links a:hover {
+  color: #00f; /* Ganti dengan warna ikon saat dihover */
+}
+
+/* Gunakan media query untuk responsif jika diperlukan */
+@media (max-width: 768px) {
+  .sub-header .col-lg-8,
+  .sub-header .col-lg-4 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Sesuaikan dengan font yang diinginkan */
+}
+
+/* Styling untuk header area */
+.header-area {
+  background-color: #333; /* Ganti dengan warna latar belakang yang diinginkan */
+  padding: 20px 0; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+.container {
+  width: 80%; /* Sesuaikan lebar container sesuai kebutuhan */
+  margin: 0 auto; /* Tengahkan container */
+}
+
+/* Styling untuk logo */
+.logo h1 {
+  color: #fff; /* Ganti dengan warna teks yang diinginkan */
+  font-size: 24px; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+/* Styling untuk navigasi utama */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin-right: 20px; /* Sesuaikan margin sesuai kebutuhan */
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff; /* Ganti dengan warna teks yang diinginkan */
+  font-size: 16px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  transition: color 0.3s ease; /* Efek transisi warna saat hover */
+}
+
+.nav a:hover {
+  color: #00f; /* Ganti dengan warna teks saat dihover */
+}
+
+/* Styling untuk ikon menu trigger */
+.menu-trigger {
+  display: none; /* Sembunyikan ikon menu trigger pada tampilan desktop */
+  cursor: pointer;
+}
+
+/* Media query untuk responsif */
+@media (max-width: 768px) {
+  .main-nav {
+    flex-direction: column; /* Ubah tata letak menjadi kolom pada tampilan kecil */
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 10px; /* Sesuaikan margin sesuai kebutuhan */
+  }
+
+  .menu-trigger {
+    display: block; /* Tampilkan ikon menu trigger pada tampilan kecil */
+    order: 2; /* Pindahkan ikon menu trigger ke bawah */
+  }
+}
+
