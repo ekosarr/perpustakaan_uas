@@ -123,118 +123,50 @@ class MainSection extends React.Component {
   class MainSection2 extends React.Component {
     render() {
       return (
-        <div>
-            <div class="properties section">
-    <div class="container">
-      <div class="row">
+        <div class="section properties">
+        <div class="container">
+        <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
             <h6>|  Buku</h6>
             <h2>Berbagai Buku</h2>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="images/buku8.jpg" alt=""/></a>
-            <span class="category">Genre</span>
-            <h6>Rp 5.000 / Hari</h6>
-            <h4 className="text-center"><a href="property-details.html">Otomic Habits</a></h4>
-            <ul className="text-center">
-            <li>Penulis: <span>92</span></li>
-              <li>Penerbit: <span>80</span></li>
-              <li>Penyunting: <span>67</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Pinjam Buku</a>
-            </div>
-          </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="images/buku11.jpeg" alt=""/></a>
-            <span class="category">Genre</span>
-            <h6>Rp 4.000 / Hari</h6>
-            <h4 className="text-center"><a href="property-details.html">Segala-galanya Ambyar</a></h4>
-            <ul className="text-center">
-            <li>Penulis: <span>92</span></li>
-              <li>Penerbit: <span>80</span></li>
-              <li>Penyunting: <span>67</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Pinjam Buku</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="images/buku12.jpeg" alt=""/></a>
-            <span class="category">Genre</span>
-            <h6>Rp 3.500 / Hari</h6>
-            <h4 className="text-center"><a href="property-details.html">Guru Aini</a></h4>
-            <ul className="text-center">
-            <li>Penulis: <span>92</span></li>
-              <li>Penerbit: <span>80</span></li>
-              <li>Penyunting: <span>67</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Pinjam Buku</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="images/buku13.jpeg" alt=""/></a>
-            <span class="category">Genre</span>
-            <h6>Rp 4.500 / Hari</h6>
-            <h4 className="text-center"><a href="property-details.html">Kamu Gak Sendiri</a></h4>
-            <ul className="text-center">
-            <li>Penulis: <span>92</span></li>
-              <li>Penerbit: <span>80</span></li>
-              <li>Penyunting: <span>67</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Pinjam Buku</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="images/buku6.jpg" alt=""/></a>
-            <span class="category">Genre</span>
-            <h6>Rp 4.000 / Hari</h6>
-            <h4 className="text-center"><a href="property-details.html">34 Beach Street Miami</a></h4>
-            <ul className="text-center">
-            <li>Penulis: <span>92</span></li>
-              <li>Penerbit: <span>80</span></li>
-              <li>Penyunting: <span>67</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Pinjam Buku</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="images/buku14.png" alt=""/></a>
-            <span class="category">Genre</span>
-            <h6>Rp 3.000 / Hari</h6>
-            <h4 className="text-center"><a href="property-details.html">Cantik Itu Luka</a></h4>
-            <ul className="text-center">
+          <div class="row properties-box">
+            {/* disini pengulangan */}
+            <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <a href="property-details.html"><img src="images/buku8.jpg" alt=""/></a>
+              <span class="category">Genre</span>
+              <h6>Rp 5.000 / Hari</h6>
+              <h4 className="text-center"><a href="property-details.html">Otomic Habits</a></h4>
+              <ul className="text-center">
               <li>Penulis: <span>92</span></li>
-              <li>Penerbit: <span>80</span></li>
-              <li>Penyunting: <span>67</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Pinjam Buku</a>
+                <li>Penerbit: <span>80</span></li>
+                <li>Penyunting: <span>67</span></li>
+              </ul>
+              <div class="main-button">
+                <a href="property-details.html">Pinjam Buku</a>
+              </div>
+            </div>
+          </div>
+          {/* disini pengulangan */}
+          </div>
+
+          
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li><a class="is_active" href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">➭</a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-        </div>
         );
     }
   }

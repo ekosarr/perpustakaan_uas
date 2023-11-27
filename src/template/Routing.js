@@ -87,6 +87,7 @@ function Routing() {
           <Route path="/Pinjam" element={<Pinjam />} />
           <Route path="/Kembali" element={<Kembali />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
         </Routes>
       </div>
     </Router>
