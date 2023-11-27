@@ -11,6 +11,11 @@ import Pinjam from "../pages/Pinjam";
 import Kembali from "../pages/Kembali";
 import Login from "../pages/auth/Login";
 import Register from "../pages/auth/Register";
+import Ladmin from "../pages/auth/Ladmin";
+import Radmin from "../pages/auth/Radmin";
+import Badmin from "../pages/Badmin";
+import Bucu from "../pages/Bucu";
+import Peminjaman from "../pages/Peminjaman";
 
 // Komponen berbasis fungsi untuk bagian header
 function Header() {
@@ -52,7 +57,8 @@ function Header() {
                       <li><a ><Link className="nav-link " to="/Pinjam">Pinjam Buku</Link></a></li>
                       <li><a ><Link className="nav-link " to="/Kembali">Kembalikan Buku</Link></a></li>
                       <li><Link className="nav-link " to="/Login"  ><i class="fa-solid fa-user"></i> Login</Link></li>
-                      <li><a href="#"><i class="fa-solid fa-user"></i> Admin</a></li>
+                      <li> <Link className="nav-link" to="/Ladmin"><i class="fa-solid fa-user"></i> Admin </Link></li>
+                      <li> <Link className="nav-link" to="/Badmin"><i class="fa-solid fa-user"></i> Bdmin </Link></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -80,6 +86,7 @@ function Routing() {
           <Route path="/Buku" element={<Buku />} />
           <Route path="/" element={<Home />} />
           <Route path="/Petugas" element={<Petugas />} />
+          <Route path="/Bucu" element={<Bucu />} />
           <Route path="/Peminjam" element={<Peminjam />} />
           <Route path="/Penyunting" element={<Penyunting />} />
           <Route path="/Penulis" element={<Penulis />} />
@@ -88,6 +95,10 @@ function Routing() {
           <Route path="/Kembali" element={<Kembali />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/Ladmin" element={<Ladmin />} />
+          <Route path="/Radmin" element={<Radmin />} />
+          <Route path="/Badmin" element={<Badmin />} />
+          <Route path="/Peminjaman" element={<Peminjaman />} />
         </Routes>
       </div>
     </Router>

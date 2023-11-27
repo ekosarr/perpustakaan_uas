@@ -6,13 +6,13 @@ import 'aos/dist/aos.css';
 
 
 
-function Penerbit() {
+function Peminjaman() {
   return (
     <div>
-        <h2 className="text-center">data Penerbit</h2>
+        <h2 className="text-center">data Peminjaman</h2>
         <Admin/>
     </div>
   );
 }
 
-export default Penerbit;
+export default Peminjaman;

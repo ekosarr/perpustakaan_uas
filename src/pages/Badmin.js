@@ -6,13 +6,12 @@ import 'aos/dist/aos.css';
 
 
 
-function Penerbit() {
+function Badmin() {
   return (
     <div>
-        <h2 className="text-center">data Penerbit</h2>
         <Admin/>
     </div>
   );
 }
 
-export default Penerbit;
+export default Badmin;

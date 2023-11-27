@@ -6,13 +6,13 @@ import 'aos/dist/aos.css';
 
 
 
-function Penerbit() {
+function Bucu() {
   return (
     <div>
-        <h2 className="text-center">data Penerbit</h2>
+        <h2 className="text-center">data Buku</h2>
         <Admin/>
     </div>
   );
 }
 
-export default Penerbit;
+export default Bucu;

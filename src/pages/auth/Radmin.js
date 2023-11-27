@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Register() {
+function Radmin() {
   return (
     <div>
       <section className="vh-100" style={{ backgroundColor: '#eee' }}>
@@ -11,7 +11,7 @@ function Register() {
                 <div className="card-body p-md-5">
                   <div className="row justify-content-center">
                     <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-                      <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Register Anggota</p>
+                      <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Register Admin</p>
                       <form className="mx-1 mx-md-4">
                         
                   <div class="d-flex flex-row align-items-center mb-4">
@@ -75,7 +75,7 @@ function Register() {
                       </form>
                     </div>
                     <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-                      <img src="images/register.jpeg" className="img-fluid" alt="Sample image"/>
+                      <img src="images/radmin.png" className="img-fluid" alt="Sample image"/>
                     </div>
                   </div>
                 </div>
@@ -88,4 +88,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default Radmin;

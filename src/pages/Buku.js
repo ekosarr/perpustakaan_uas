@@ -1,11 +1,9 @@
-import { Container, Row, Col } from "react-bootstrap";
-import React from "react";
 
-class MainSection extends React.Component {
-    render() {
-      return (
-        <main>
-             <div class="section best-deal">
+
+function Buku() {
+    return(
+      <div>
+          <div class="section best-deal">
              <div class="container">
              <div class="row">
                 <div class="col-lg-4">
@@ -115,15 +113,8 @@ class MainSection extends React.Component {
              </div>
              </div>
              </div>
-        </main>
-      );
-    }
-  }
 
-  class MainSection2 extends React.Component {
-    render() {
-      return (
-        <div class="section properties">
+             <div class="section properties">
         <div class="container">
         <div class="row">
         <div class="col-lg-4 offset-lg-4">
@@ -167,14 +158,8 @@ class MainSection extends React.Component {
           </div>
         </div>
       </div>
-        );
-    }
-  }
 
-  class MainSection3 extends React.Component {
-    render() {
-      return (
-          <div>
+      <div>
         <div class="row">
         <div class="col-lg-12">
           <ul class="pagination">
@@ -186,19 +171,7 @@ class MainSection extends React.Component {
         </div>
       </div>
           </div>
-        );
-      }
-    }
-
-
-
-function Buku() {
-    return(
-        <div>
-            <MainSection/>
-            <MainSection2></MainSection2>
-            <MainSection3></MainSection3>
-        </div>    
+      </div>
     );
 }
 
